@@ -1,9 +1,14 @@
 package com.example.gui;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+import javax.swing.*;
+
+
+public class Controller {
+
     @FXML
     private Label welcomeText;
 
